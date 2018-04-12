@@ -1,0 +1,26 @@
+1)Github è un servizio dove è possibile creare delle repository, dette "cartelle", dove gli utenti possono collaborare su un progetto, su un file o su un insieme di files. Il proprietario decide 
+di condividere un progetto sul quale potranno lavorare e collaborare diversi membri (avendo i dovuti permessi, forniti dal creatore della repository). Tale soluzione è utile perchè permette a più persone
+di lavorare su un singolo progetto, se la repository è pubblica chiunque può visualizzare i file e fare un forking di essa. Successivamente l'utente che avrà apportato delle modifiche al file potrà 
+richiedere al creatore della repository di implementare tale parte nel progetto.
+
+2)Esistono due tipi di repository: PUBBLICA e PRIVATA. La prima è completamente gratuita e rende accessibile da tutti la repository (per collaborare ci sarà comunque bisogno 
+del permesso dell'utente creatore). Mentre per una soluzione PRIVATA bisogna pagare una quota mensile o annuale, in base alle proprie esigenze, in tal caso la repository sarà visibile
+solo agli "addetti al lavoro" i quali, oltre a visualizzare la repository e i suoi contenuti, potranno lavorare sul progetto implementando nuove funzionalità o risolvendo eventuali bug.
+Per creare una repository privata, bisogna cliccare su "INIT" successivamente "Github.com", selezionare l'account di github con cui si vuole lavorare, dare un nome alla repository (campo "name"),
+aggiungere un'eventuale descrizone, e settare il campo "Access" su "private". Scegliere una cartella dove la repository verrà clonata e dove verranno effettuate le modifiche col commit e poi selezionare se si vuole
+una licenza.
+
+3)Con "fare un branch" si intende creare una sorta di "nuova versione" dove l'utente può apportare delle modifiche senza che queste avvengano direttamente sul master e quindi senza
+che un'eventuale modifica sbagliata comprometta tutto il programma o lavoro di gruppo. Infatti, dopo aver creato il branch, l'utente creatore del branch lavorerà su una versione differente
+dal "master", una versione in locale che verrà poi uploadata mediante il tasto "PUSH". Sarà poi compito degli altri utenti facenti parte della repository, accettare un eventuale branch ed
+inserire eventuali modifiche sul master, facendo l'operazione di MERGE. Di solito i vari branch sono divisi in base alle varie attività, per la creazione di una nuova funzionalità o magari per la risoluzione
+di bug.
+
+4)Gli issue, ovvero i problemi, vengono solitamente usati per tenere traccia di evnentuali errori, bug e richieste di funzionalità. Le issue saranno visibili sia in un'apposita pagina sia su Github.
+
+
+5)Con il comando PUSH si decide di cariche eventuali modifiche online. Infatti, con il commit, le modifiche, vengono effettuate sulla copia clonata in locale mentre con il comando PUSH le modifiche apportate alla copia 
+della repository verranno effettuate sulla repository online. Nel caso di un push di un branch il compito di unirli sarà affidato al creatore della repository che farà un PULL, unendo il branch al master. Nel caso invece
+fosse una modifica diretta, senza branch, bisogna stare attenti a non creare conflitti (scaricare la nuova versione della repository se nel frattempo questa è stata aggiornata). In caso di conflitto verranno proposte 
+due opzioni dal sistema, la prima è evitare il push e apportare delle modifiche per evitare conflitti mentre la seconda, invece, ci permette di forzare il push e fare in modo che le nostre modifiche siano sovrascritte
+in ogni caso sul master, in questo caso, eventuali modifiche di altri utenti sul master andranno perse.
